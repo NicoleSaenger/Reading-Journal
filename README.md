@@ -208,13 +208,13 @@ Certifique-se de que tanto o frontend quanto a API estejam rodando simultaneamen
 ## 🖼️ Visualização Final
 Após a execução do projeto, o resultado final no navegador será o seguinte, exibindo as 4 telas principais: 'Home', 'Sobre o Projeto', 'Listagem de Livros' e 'Cadastrar Novo Livro'. 
 <br><br>
-![Print da página inicial](./assets/homePage.png)
+![Print da página inicial](../assets/homePage.png)
 <br><br>
-![Print da página informativa](./assets/infoPage.png)
+![Print da página informativa](../assets/infoPage.png)
 <br><br>
-![Print da página de listagem](./assets/listPage.png)
+![Print da página de listagem](../assets/listPage.png)
 <br><br>
-![Print da página de cadastro](./assets/formPage.png)
+![Print da página de cadastro](../assets/formPage.png)
 
 <br> 
 
