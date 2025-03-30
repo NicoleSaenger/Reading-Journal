@@ -1,0 +1,286 @@
+/*---------------------Importação de Fontes---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+/*---------------------Estilizações Gerais---------------------*/
+
+/*Cor da página*/
+body {
+  background-color: #F1E7E7 !important;
+}
+
+
+/*Títulos*/
+.title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 55px;
+    color: #664343;
+}
+
+/*Textos*/
+.text {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+}
+
+
+/*---------------------Estilização BookList---------------------*/
+
+/*Boatão de edição*/
+.editButton {
+  padding: 6px 12px;
+  background-color: #E3D2C3;
+  color: #664343;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  border: none;
+  margin-right: 10px;
+}
+
+.editButton:hover {
+  background-color: #781D42;
+  color: white;
+}
+
+
+/*Botão de exclusão*/
+.deleteButton {
+  padding: 6px 12px;
+  background-color: #A35D6A;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #781D42;
+  color: white;
+}
+
+/*Botão Cadastrar Novo Livro*/
+.addNewBookButton {
+  margin-top: 30px;
+  padding: 15px 40px; 
+  background-color: #781D42;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 500px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.addNewBookButton:hover {
+background-color: #664343
+}
+
+
+/*Posicionamento dos cards*/
+.cardsPosition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.cardsStyle {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  background-color: whitesmoke;
+}
+
+
+/*---------------------Esilização BookEdit---------------------*/
+
+/*Formulário Edição*/
+.formBookEdit {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+/*Botão de salvar*/
+.saveButton {
+  padding: 8px 15px;
+  background-color: #E3D2C3;
+  color: #664343;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.saveButton:hover {
+  background-color: #781D42;
+  color: white; 
+}
+
+
+/*Botão de Cancelar*/
+.cancelButton {
+  padding: 8px 15px;
+  background-color: #A35D6A;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.cancelButton:hover {
+  background-color: #781D42;
+}
+
+
+/*Títulos card*/
+.labelEdit {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 3px;
+  display: block;
+  color: #664343;
+}
+
+
+/*Input BookEdit*/
+.inputBookEdit {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+}
+
+
+
+/*---------------------Estilização BookForm---------------------*/
+
+/*Botão de cancelar*/
+.cancelButtonForm {
+  padding: 10px;
+  color: whitesmoke;
+  background-color: #781D42;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 48%;
+  font-size: 15px;
+}
+
+.cancelButtonForm:hover {
+  background-color: #664343;
+}
+
+
+/*Botão de adicionar*/
+.addButtonForm {
+  padding: 10px;
+  color: #664343;
+  background-color: #E3D2C3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 48%;
+  font-size: 15px;
+}
+
+.addButtonForm:hover {
+  background-color: #A35D6A;
+  color: white;
+}
+
+
+/*Estilização container BookForm*/
+.containerBookForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F1E7E7; 
+  margin-top: 60px;
+}
+
+
+/*Estilização formulário*/
+.formBookForm {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background-color: white;
+}
+
+
+/*Label BookForm*/
+.labelBookForm {
+  text-align: left;
+  font-weight: bold;
+  color: #664343;
+  font-size: 17px;
+}
+
+
+/*Input BookForm*/
+.inputBookForm {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+/*---------------------Estilização NavBar---------------------*/
+
+/*Barra de navegação*/
+.navBar {
+  background-color: #B5828C;
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: '100%';
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000
+}
+
+/*Lista dos links de navegação*/
+.navBarList {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Links de navegação*/
+.navBarLinks {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
